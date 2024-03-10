@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['@safe-globalThis/safe-ethers-adapters',"@thirdweb-dev/react" , '@safe-globalThis/safe-core-sdk','@safe-globalThis/safe-ethers-lib']
-    }
+      external: ['@thirdweb-dev/react'],
+    },
   },
   resolve: {
     alias: {
